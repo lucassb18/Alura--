@@ -6,11 +6,8 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo); 
-    color: var(--branco-principal); 
-    width: 1440px;
-    height: 680px;
-    flex-shrink: 0;
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
 }
 
 * {
@@ -27,7 +24,7 @@ body {
 .container{
     height: 100vh;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 50% 25% 25%;
 }
 
 .container__botao {

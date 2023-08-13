@@ -8,14 +8,16 @@
 body {
     background-color: var(--cor-de-fundo); 
     color: var(--branco-principal); 
-    width: 1440px;
-    height: 680px;
-    flex-shrink: 0;
+    
 }
 
 * {
     margin: 0;
     padding: 0;
+
+    width: 1440px;
+    height: 680px;
+    flex-shrink: 0;
 }
 
 .principal {
