@@ -45,7 +45,6 @@ body {
     width: 512px;
     align-items: flex-start;
     gap: 16px;
-    margin-bottom: 1em;
 }
 
 .botao_secundario {
@@ -84,8 +83,4 @@ body {
     top: 249px;
     left: 178px;
     margin: 1em 0 2em 0;
-}
-
-.container__caixa {
-    margin: 0 6em;
 }
