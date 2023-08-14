@@ -37,34 +37,20 @@ body {
 .container__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
-    padding: 16px;
+    padding: 1em;
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
-    display: flex;
-    width: 512px;
-    align-items: flex-start;
-    gap: 16px;
 }
 
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
-    display: flex;
-    width: 512px;
-    padding: 16px;
-    align-items: flex-start;
-    gap: 16px;
 }
 
 .container__aviso {
     font-size: 12px;
     color: var(--cinza-secundario);
-    text-align: center;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .container__titulo {
@@ -82,4 +68,5 @@ body {
     height: 100px;
     top: 249px;
     left: 178px;
+    text-align: center;
 }
