@@ -54,6 +54,14 @@ body {
 }
 
 .container__titulo {
+    width: 588px;
+    color: var(--branco-principal);
+    text-align: center;
+    text-shadow: 0px 4px 4px var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    line-height: normal;
+    
     font-size: 28px;
     font-weight: 700;
 }

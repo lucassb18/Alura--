@@ -54,6 +54,7 @@ body {
 }
 
 .container__titulo {
+    width: 588px;
     font-size: 28px;
     font-weight: 700;
 }
