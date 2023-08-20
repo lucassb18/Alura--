@@ -93,17 +93,5 @@ body {
 }
 
 .secundario__imagem {
-    width: 498px;
-    height: 560px;
-    flex-shrink: 0;
-}
-
-.descricao__titulo{
-    width: 588px;
-    color: var(--branco-principal);
-    font-family: var(--fonte-principal)
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%; /* 57.6px */
+    width: 80%;
 }

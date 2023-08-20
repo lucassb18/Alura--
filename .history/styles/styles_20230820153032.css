@@ -101,7 +101,7 @@ body {
 .descricao__titulo{
     width: 588px;
     color: var(--branco-principal);
-    font-family: var(--fonte-principal)
+    font-family: Inter;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
