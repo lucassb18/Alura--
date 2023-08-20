@@ -4,7 +4,6 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
-    --botao-azul-efeito: #3c92fa;
 }
 
 body {
@@ -21,7 +20,7 @@ body {
 }
 
 .principal {
-    background-image: url("/assets/Background.png");
+    background-image: url(/assets/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -108,48 +107,60 @@ body {
 }
 
 .dispositivos__titulo {
+    text-align: center;
+    font-family:var(--fonte-principal);
     font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
     color: var(--branco-principal);
 }
 
 .lista__item {
-    font-size: 32px;
     color: var(--branco-principal);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 38.4px */
+    width: 339px;
+    height: 192px;
+    flex-shrink: 0;
 }
 
-.rodape {
+.rodape__logo {
+    display: flex;
+    width: 102px;
+    height: 35.28px;
+    flex-shrink: 0;
     text-align: center;
-    margin: 5em 3em;
 }
 
 .rodape__lista {
     display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin-top: 1em;
+    align-items: flex-start;
+    gap: 16px;
 }
 
-.lista__link a{
-    text-decoration: none;
+.lista__link {
     color: var(--branco-principal);
-    margin-left: 1em;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    list-style-type: none;
 }
 
 .rodape__texto {
-    margin: 1em 0;
+    width: 1200px;
     color: var(--cinza-secundario);
+    text-align: center;
+    font-family: var(--fonte-principal);
     font-size: 14px;
-}
-
-.lista__link a:hover {
-    color: var(--botao-azul);
-}
-
-.lista__link a:active {
-    color: purple;
-}
-
-.container__botao:hover {
-    background-color: var(--botao-azul-efeito);
-    color: var(--cor-de-fundo);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
 }
