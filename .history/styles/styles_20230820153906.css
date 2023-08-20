@@ -93,9 +93,9 @@ body {
 }
 
 .secundario__imagem {
-    width: 80%;
-    /* height: 560px; */
-    /* flex-shrink: 0; */
+    width: 498px;
+    height: 560px;
+    flex-shrink: 0;
 }
 
 .secundario {
@@ -106,32 +106,14 @@ body {
 .descricao__titulo {
     width: 588px;
     color: var(--branco-principal);
-    font-family: var(--fonte-principal);
-    font-size: 48px;
+    font-family: var(--fonte-principal) font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
     /* 57.6px */
-    margin-bottom: 0.1em;
-    text-align: center;
+    margin-bottom: 0.5em;
 }
 
 .descricao__texto {
-    width: 588px;
-    color: var(--cinza-secundario);
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    text-align: center;
-}
 
-.botao__secundario {
-    display: inline-block;
-    margin-top: 1em;
-}
-
-.container__descricao{
-    padding: 2em;
 }

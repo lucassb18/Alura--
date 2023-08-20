@@ -94,8 +94,8 @@ body {
 
 .secundario__imagem {
     width: 80%;
-    /* height: 560px; */
-    /* flex-shrink: 0; */
+    height: 560px;
+    flex-shrink: 0;
 }
 
 .secundario {
@@ -106,8 +106,7 @@ body {
 .descricao__titulo {
     width: 588px;
     color: var(--branco-principal);
-    font-family: var(--fonte-principal);
-    font-size: 48px;
+    font-family: var(--fonte-principal) font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
@@ -130,8 +129,4 @@ body {
 .botao__secundario {
     display: inline-block;
     margin-top: 1em;
-}
-
-.container__descricao{
-    padding: 2em;
 }
