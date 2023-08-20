@@ -117,13 +117,10 @@ body {
 
 .lista__item {
     color: var(--branco-principal);
-    text-align: center;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%; /* 38.4px */
-    width: 339px;
-    height: 192px;
-    flex-shrink: 0;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 38.4px */
 }

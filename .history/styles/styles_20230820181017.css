@@ -123,7 +123,4 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 120%; /* 38.4px */
-    width: 339px;
-    height: 192px;
-    flex-shrink: 0;
 }
